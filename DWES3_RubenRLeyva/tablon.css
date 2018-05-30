@@ -1,0 +1,187 @@
+/* Uso general */
+
+#login #index #voluntario legend {
+  font-family : Arial, sans-serif;
+  font-size: 1.3em;
+  font-weight:bold;
+  color:#333;
+}
+
+
+/* De uso para el index */
+
+#index fieldset{
+    
+    margin: 0 auto;
+    width:370px;
+    height:auto;
+    background-color: #eee;
+}
+
+#index .campo {
+  margin-top:8px;
+  margin-bottom: 10px;
+  height: 125px;
+  display: inline;
+
+}
+
+
+/* De uso para el login */
+
+#login fieldset {
+    margin: 0 auto;
+    width:250px;
+    height:auto;
+    background-color: #eee;
+}
+
+#login .campo {
+  margin-top:8px;
+  margin-bottom: 10px;
+  
+}
+
+#login label {
+  font-family : Arial, sans-serif;
+  font-size:0.8em;
+  font-weight: bold;
+}
+
+#login input[type="text"], #login input[type="password"] {
+  font-family : Arial, Verdana, sans-serif;
+  font-size: 0.8em;
+  line-height:140%;
+  color : #000; 
+  padding : 3px; 
+  border : 1px solid #999;
+  height:18px;
+  width:250px;
+}
+
+#login input[type="submit"] {
+  height:30px;
+  padding: 0;
+  
+}
+
+
+/* De uso para el voluntario */
+
+#voluntario fieldset {
+    margin: 0 auto;
+    width:513px;
+    height:auto;
+    background-color: #eee;
+}
+
+#voluntario .campo {
+  margin-top:8px;
+  margin-bottom: 10px;
+  display: inline;
+}
+
+#voluntario input[type="submit"] {
+  width: 125px;
+  height:20px;
+  margin: 10px auto;
+  padding: 0;
+  
+}
+
+
+/* De uso para los invitados */
+
+#invitado fieldset {
+    margin: 0 auto;
+    width:255px;
+    height:auto;
+    background-color: #eee;
+}
+
+#invitado .campo {
+  margin-top:8px;
+  margin-bottom: 10px;
+  display: inline;
+}
+
+#invitado input[type="submit"] {
+  width: 125px;
+  height:20px;
+  margin: 0px auto;
+  padding: 0;
+  
+}
+
+/* De uso para preferencias */
+
+#preferencias fieldset {
+    margin: 0 auto;
+    width:385px;
+    height:auto;
+    background-color: #eee;
+}
+
+#preferencias .campo {
+  margin-top:8px;
+  margin-bottom: 10px;
+  display: inline;
+}
+
+#preferencias input[type="submit"] {
+  width: 125px;
+  height:20px;
+  margin: 10px auto;
+  padding: 0;
+  
+}
+
+/* De uso para los errores */
+
+.error {
+  font-family: Verdana, Arial, sans-serif; 
+  font-size: 0.7em;
+  color: #900;
+  background-color : #ffff00;
+}
+
+/* De uso para el tablón */
+
+#contenedor { 
+  width: 90%;
+  background: #fff;
+  margin: 0 auto;
+  border: 1px solid #000;
+  text-align: left;
+} 
+
+#encabezado {
+  padding: 0 10px;
+  border-top-width: thin;
+  border-right-width: thin;
+  border-bottom-width: thin;
+  border-left-width: thin;
+  border-top-style: solid;
+  border-right-style: solid;
+  border-bottom-style: solid;
+  border-left-style: solid;
+  background-color: #9cf;
+} 
+
+#encabezado h1 {
+  margin: 0 auto; 
+  padding: 10px 0; 
+}
+
+#pie {
+  padding: 0 10px;
+  background-color: #99ccff;
+  border-top-width: thin;
+  border-right-width: thin;
+  border-bottom-width: thin;
+  border-left-width: thin;
+  border-top-style: solid;
+  border-right-style: solid;
+  border-bottom-style: solid;
+  border-left-style: solid;
+} 
